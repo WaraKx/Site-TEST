@@ -1,0 +1,36 @@
+.second_section {
+	text-align: center;
+	padding: 2em;
+}
+
+.second_section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2em;
+	align-items: center;
+	background-image: url("./assets/Kirua2.jpeg");
+	background-position: center;
+	min-height: 50dvh;
+	background-size: cover;
+	gap: 1em;
+}
+
+.second_section p {
+	max-width: 400px;
+	padding: 1em;
+	background-color: rgb(255 255 255 / 29%);
+	backdrop-filter: blur(3px);
+	border-radius: 4px;
+	border: 1px solid #ffffff82;
+    font-family: Calibri, sans-serif
+}
+
+.second_section h2 {
+
+	font-family: Impact, fantasy;
+	color: #ffffff;
+	font-size: 500%;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}

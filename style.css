@@ -24,3 +24,33 @@ a {
 a:hover {
 	color: rgba(255, 255, 255, 0.753);
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Première image (normale) */
+.normal-image {
+    width: 50px; /* Ajuste la taille selon ton besoin */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Deuxième image (survol) */
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Lorsque la souris survole le conteneur */
+.image-container:hover .normal-image {
+    opacity: 0;
+}
+
+.image-container:hover .hover-image {
+    opacity: 1;
+}
